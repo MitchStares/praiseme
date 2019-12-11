@@ -1,0 +1,11 @@
+### Unconference Package tips ###
+
+Setup your project by new project -> package with
+
+Learn how to use "usethis" package.
+Roxygen2 is amazing for skeletoning documentation. Click on function, then the code toolbar, insert roxygen skeleton.
+Once you fill this out, use devtools::document() to copy these changes to a documentation page inside the man folder.
+
+Usethis::use_package() is a great function for adding dependancies to a package without needing to do anything.
+
+usethis::use_readme_rmd() to insert an rmarkdown readme file.
